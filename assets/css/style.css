@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_division{
+    background: linear-gradient(to right top, rgb(92,216,221), rgb(226,60,239));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.primary{
+    background-color: white;
+    width: 23rem;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.head{
+    padding: 20px;
+    text-align: center;
+}
+.input_text{
+    display: block;
+    padding: 5px;
+}
+.textbox{
+    margin: 5px;
+    width: 18rem;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.login_form{
+    padding-left: 30px;
+}
+.forgot_password{
+    padding: 5px;
+    padding-right: 38px;
+    text-align: right;
+}
+.login_button{
+    width: 19rem;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right ,rgb(92,216,221), rgb(226,60,239));
+    border-radius: 10px;
+    border: none;
+}
+.icon{
+    text-align: center;
+}
+.signup_icons{
+    padding: 15px;
+}
+.fa-icons{
+    display: inline-block;
+    background-color: aquamarine;
+    border-radius: 150px;
+}
+.fa-brands{
+    padding: 15px;
+}
+.facebook, .twitter, .google{
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+}
+.facebook{
+    background-color: rgb(64,89,149);
+}
+.twitter{
+    background-color: rgb(79,159,232);
+}
+.google{
+    background-color: rgb(214,79,62);
+}
+.text{
+    text-align: center;
+    padding-top: 1.5in;
+}
+.signup_text{
+    padding: 20px;
+}
+.heading{
+    font-size: 2.2rem;
+}
+.text{
+    font-size: .8rem;
+    display: block;
+}
+
+.anchor{
+    text-decoration: none;
+    color: black;
+}
